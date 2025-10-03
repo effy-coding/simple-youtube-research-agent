@@ -1,5 +1,5 @@
 {
-  "name": "youtube-channel-analyzer",
+  "name": "simple-youtube-research-agent",
   "version": "1.0.0",
   "description": "YouTube 채널 분석 및 콘텐츠 기획 도구",
   "type": "module",

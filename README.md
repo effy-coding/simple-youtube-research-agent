@@ -1,4 +1,4 @@
-# YouTube 채널 분석 & 콘텐츠 기획 도구
+# simple-youtube-research-agent
 
 YouTube 채널 URL만 입력하면 자동으로 채널을 분석하고 내 채널용 콘텐츠 기획안을 생성하는 도구입니다.
 
@@ -46,15 +46,15 @@ data/@channelname 폴더를 분석해서 콘텐츠 기획안을 만들어줘.
 ## 사용 예시
 
 ```bash
-# 예시: Veritasium 채널 분석
-bun run youtube-scraper.ts https://www.youtube.com/@veritasium
+# 예시: 채널 분석
+bun run youtube-scraper.ts https://www.youtube.com/channel/UCFeNOnMBl3vsh8s8Yp81Gcg
 
 # 결과 확인
-cat data/@veritasium/channel.json
-cat data/@veritasium/videos.json
+cat data/@채널핸들/channel.json
+cat data/@채널핸들/videos.json
 
 # Claude Code에게 분석 요청
-# → data/@veritasium/analysis.md 생성됨
+# → data/@채널핸들/analysis.md 생성됨
 ```
 
 ## 프로젝트 구조
