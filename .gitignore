@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+
+# 크롤링 데이터
+data/
+
+# 디버그 파일
+debug_*.png
+debug_*.html
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Build outputs
+dist/
+build/
+*.tsbuildinfo

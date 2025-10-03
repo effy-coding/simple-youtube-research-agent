@@ -1,0 +1,16 @@
+{
+  "name": "youtube-channel-analyzer",
+  "version": "1.0.0",
+  "description": "YouTube 채널 분석 및 콘텐츠 기획 도구",
+  "type": "module",
+  "scripts": {
+    "scrape": "bun run youtube-scraper.ts",
+    "install-browsers": "bunx playwright install chromium"
+  },
+  "dependencies": {
+    "playwright": "^1.40.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0"
+  }
+}
